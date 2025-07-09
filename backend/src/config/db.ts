@@ -5,7 +5,7 @@ dotenv.config();
 
 const connectDB = async (): Promise<void> => {
   try {
-    const mongoURI = process.env.MONGO_URI || 'mongodb+srv://ecoterrauser:EcoterraPass2024@ecoterra-cluster.mongodb.net/ecoterra-database?retryWrites=true&w=majority&appName=EcoterraApp';
+    const mongoURI = process.env.MONGO_URI || 'mongodb+srv://putrarifki705:kblim@cardifyai.smnxv8y.mongodb.net/ecoterra-database?retryWrites=true&w=majority&appName=CardifyAi';
     
     const conn = await mongoose.connect(mongoURI, {
       // MongoDB Atlas optimizations
